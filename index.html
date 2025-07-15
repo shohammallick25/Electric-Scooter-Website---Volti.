@@ -10,6 +10,15 @@
     - primary meta tags
   -->
   <title>Shoham mallick || Volti - Book Your Eco-Friendly Ride</title>
+
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#00c853">
+
+<!-- Add this to support PWA on iOS -->
+<link rel="apple-touch-icon" href="assets/images/logo-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  
   <meta name="title" content="Volti - Book Your Eco-Friendly Ride">
   <meta name="description" content="This is a vehicle charging html template made by Shoham Mallick">
 
@@ -893,6 +902,16 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(reg => console.log('Service Worker registered ✔️', reg))
+      .catch(err => console.error('Service Worker registration failed ❌', err));
+  }
+</script>
+
 
 </body>
 
