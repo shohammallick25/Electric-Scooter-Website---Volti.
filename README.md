@@ -29,14 +29,14 @@ Developed by **Shoham Mallick**.
 ## 📁 Project Structure
 volti-home/
 │
-├── index.html # Main HTML File
+├── index.html 
 ├── assets/
 │ ├── css/
-│ │ └── style.css # Custom CSS Styles
+│ │ └── style.css
 │ ├── js/
-│ │ └── script.js # JavaScript Interactions
-│ ├── images/ # Site Images (banners, icons, etc.)
-│ └── font/ # Custom Fonts
+│ │ └── script.js
+│ ├── images/
+│ └── font/
 ├── favicon.svg
 └── README.md
 
